@@ -1,0 +1,579 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background: black;
+    font-family:font-family: 'Nunito', sans-serif;;
+}
+
+.menu-icon{ 
+    padding: 30px 0 55px 0;
+}
+
+header{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.bio-text h1 { 
+    color: rgb(238, 214, 214);
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.img-header{ 
+    width:50%;
+    padding: 20px;
+    
+}
+
+.img-header .img{ 
+    background: url(../img/oladimeji-odunsi-aU_eOcelLhQ-unsplash.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:50%;
+    height: 50vh;
+    border-radius: 50%;
+    margin-left: 10rem;
+}
+
+.model-name h3{ 
+    color: rgb(238, 214, 214);
+    padding: 12px;
+}
+
+.model-bio p{ 
+    color: whitesmoke;
+    font-size: 20px;
+    margin:25px;
+    padding: 0 270px;
+    font-family: font-family: 'Caveat', cursive;;
+}
+
+.icons{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons img{ 
+    font-weight: bolder;
+}
+
+.fb, .bird-app, .insta{ 
+    padding-left: 40px ;
+
+}
+
+.about-section{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+    margin-top:30px;
+    padding-top: 13px;
+}
+
+.collab-section{ 
+width: 47%;
+}
+
+
+.collab-heading{ 
+    font-size: 35px;
+    color: rgb(238, 214, 214);
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+
+.collab-section h3{ 
+    color: whitesmoke;
+    font-size: 20px;
+    
+}
+
+
+
+.profile-section{ 
+width: 47%;
+}
+
+.profile-section h3{ 
+    color: rgb(238, 214, 214);
+    font-size: 25px;
+    padding: 0 10px 10px 10px;
+}
+
+.profile-section .profile-txt{
+    color: whitesmoke;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+
+.profile-section .chat-span{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.chat-span span{ 
+padding-left: 6px;
+}
+
+
+.inspiration{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    padding-top: 13px;
+}
+
+.number{ 
+    color: rgb(238, 214, 214);
+    font-size: 72px;
+    font-weight: bold;
+}
+
+hr{
+    width: 80%;
+}
+.number h1{
+    font-size: 35px;
+    color: rgb(238, 214, 214);
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.inspired-txt{ 
+    color: whitesmoke;
+}
+
+
+.inspired-txt h2{ 
+    font-size: 45px;
+  
+    margin: 25px;
+}
+.arrow-icon{ 
+   
+}
+
+.arrow-icon img{ 
+    
+}
+
+.portfolio-txt { 
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 25px;
+}
+
+
+
+.image-gallery{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.img-showcase{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img-showcase > div{ 
+    padding: 20px;
+    margin: 19px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+
+.img-showcase > .img-1{ 
+    background: url(../img/john-jennings-fg7J6NnebBc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:27%;
+    height: 50vh;
+}
+
+.img-showcase > .img-1:hover{ 
+    background: url(../img/john-jennings-fg7J6NnebBc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: 80% 20%;
+    background-size: cover;
+    width:27%;
+    height: 50vh;
+}
+
+.img-showcase > .img-2{ 
+    background: url(../img/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: 80% 20%;
+    background-size: cover;
+    width:27%;
+    height: 50vh;
+}
+
+.img-showcase > .img-2:hover{ 
+    background: url(../img/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width:27%;
+    height: 50vh;
+}
+
+
+.img-showcase > .img-3{ 
+    background: url(../img/jr-korpa-cJljbGYLTAI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:27%;
+    height: 50vh;
+}
+
+.img-showcase > .img-3:hover{
+    background: url(../img/jr-korpa-cJljbGYLTAI-unsplash.jpg); 
+     background-repeat: no-repeat;
+     background-position: 80% 20%;
+     background-size: cover;
+     width:27%;
+     height: 50vh;
+}
+
+.img-showcase > .img-4{ 
+    background: url(../img/vinicius-wiesehofer-UOavP_Z38lE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:27%;
+    height: 50vh;
+}
+
+.img-showcase > .img-4:hover{ 
+    background: url(../img/vinicius-wiesehofer-UOavP_Z38lE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: 80% 20%;
+    background-size: cover;
+    width:27%;
+    height: 50vh;
+}
+
+
+
+.img-showcase > .img-5{ 
+    background: url(../img/samantha-gades-BlIhVfXbi9s-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:27%;
+    height: 50vh;
+}
+
+.img-showcase > .img-5:hover{ 
+    background: url(../img/samantha-gades-BlIhVfXbi9s-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: 80% 20%p;
+    background-size: cover;
+    width:27%;
+    height: 50vh;
+}
+
+
+.img-showcase > .img-6{ 
+    background: url(../img/jr-korpa-E2i7Hftb_rI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:27%;
+    height: 50vh;
+}
+
+
+.img-showcase > .img-6:hover{ 
+    background: url(../img/jr-korpa-E2i7Hftb_rI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position:80% 20%;
+    background-size: cover;
+    width:27%;
+    height: 50vh;
+}
+
+.learn-btn{ 
+    margin: 20px;
+}
+
+
+.btn{ 
+    color: whitesmoke;
+    border-radius: 1px solid rgb(238, 214, 214);
+    font-size: 20px;
+    padding:20px 40px;
+    background: none;
+}
+
+.btn:hover{ 
+    color: black;
+    background: white;
+    font-weight: bolder;
+    
+}
+
+
+.strategy-section{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+    margin-top:0px;
+    padding-top: 13px;
+}
+
+
+.strategy-header1{ 
+    width: 48%;
+    
+}
+
+.strategy-header1 > h1{ 
+    color: rgb(238, 214, 214);
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.strategy-paragraph1 > p{ 
+    color: whitesmoke;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+
+.strategy-header2{ 
+    width: 48%;
+}
+
+
+.strategy-header2 h1 { 
+    color: whitesmoke;
+    font-size: 28px;
+    padding-top: 45px;
+    font-family: 'Caveat', cursive;
+}
+
+
+.strategy-paragraph2 > p{ 
+   
+    color: whitesmoke;
+    font-size: 20px;
+    padding-bottom: 15px;
+
+}
+
+.contact-section{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.motto h1{ 
+    color: rgb(238, 214, 214);
+    font-size: 38px;
+    font-weight: bold;
+}
+
+
+.telephone .chat-span{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.customer-img{
+    background: url(../img/tony-hernandez-pZGf-5WpcCg-unsplash.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:50%;
+    height: 50vh;
+    border-radius: 50%;
+    margin-left: 10rem;
+    padding-top: 25px;
+
+}
+
+
+.hr{ 
+    width: 23% ;
+    height: 12px;
+    border: none;
+     height: 12px;
+    background: rgb(238, 214, 214);
+    margin: 15px;
+}
+
+
+.location p:nth-of-type(1){ 
+    color: rgb(238, 214, 214);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.location p:nth-of-type(2){ 
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.sample-txt{
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 54px;
+}
+
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(37, 36, 36);
+    padding: 40px;
+}
+
+.footer-txt{
+    color: whitesmoke;
+    font-size:17px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 70px;
+
+}
+
+.cc{ 
+    color: whitesmoke;
+    padding: 50px;
+}
+
+.cc span{
+    color: rgb(120, 120, 133);
+    text-decoration: underline;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
